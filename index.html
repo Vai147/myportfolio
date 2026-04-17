@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Somkuwar - Software Engineer</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Sticky Nav 'Apple Store Style' -->
+    <nav class="pro-nav">
+        <div class="nav-container">
+            <div class="brand">Vaibhav Somkuwar</div>
+            <div class="nav-links" id="main-nav">
+                <a href="#overview" class="active">Overview</a>
+                <a href="#tech-specs">Tech Specs</a>
+                <a href="resume.pdf" target="_blank" class="download-link">Resume</a>
+                <a href="https://github.com/Vai147" target="_blank" class="download-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/vaibhav-somkuwar/" target="_blank"
+                    class="download-link">LinkedIn</a>
+                <a href="mailto:vsomkuwar197@gmail.com" class="btn-buy">Email</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="overview" class="hero-section">
+        <div class="cinematic-container split" style="text-align: left;">
+            <div class="media-content reveal">
+                <img src="assets/profile.jpg" alt="Vaibhav Somkuwar"
+                    style="width: 280px; height: 280px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 50px rgba(255,255,255,0.1);">
+            </div>
+            <div class="text-content reveal delay-1">
+                <h2 class="sub-headline">Vaibhav Somkuwar</h2>
+                <h1 class="headline gradient-text" style="font-size: clamp(50px, 8vw, 100px);">Software<br>Engineer.
+                </h1>
+                <p class="intro-blurb" style="margin: 0; max-width: 500px;">
+                    Building distributed systems that handle millions of daily API calls. Mastered in Kafka, AWS, and
+                    Kubernetes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cinematic Experience 1: Frugal -->
+    <section class="cinematic-section bg-dark">
+        <div class="cinematic-container split">
+            <div class="text-content reveal">
+                <h3 class="section-label">Software Engineer</h3>
+                <h2 class="hero-text gradient-text" style="font-size: clamp(30px, 5vw, 55px); margin-bottom: 20px;">
+                    Frugal Innovation Hub.</h2>
+                <div class="detail-text" style="font-size: 18px; color: var(--text-secondary);">
+                    Built Java/Spring Boot microservices on AWS (ECS, RDS) for a bilingual EdTech platform. Enforced
+                    rigorous security standards via JWT authentication, RBAC, and extensive endpoint test coverage.
+                </div>
+                <div class="metrics-row">
+                    <div class="metric-card reveal">
+                        <h4>200ms
+                        </h4>
+                        <p>p95 REST API response latency via Redis caching & schema optimizations.</p>
+                    </div>
+                    <div class="metric-card reveal delay-1">
+                        <h4>50K+</h4>
+                        <p>Users secured via robust RBAC implementations.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="media-content reveal delay-1">
+                <div class="abstract-visual glow-blue" style="background: transparent;">
+                    <img src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://www.scu.edu&size=256"
+                        alt="Frugal Hub" style="width:150px; height:150px; border-radius:30px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cinematic Experience 2: CadandCart -->
+    <section class="cinematic-section black-pure text-center">
+        <div class="cinematic-container reveal">
+            <div class="abstract-visual glow-purple" style="background: transparent; margin: 0 auto 30px;">
+                <img src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://www.cadandcart.com&size=256"
+                    alt="CadandCart" style="width:120px; height:120px; border-radius:25px;">
+            </div>
+            <h3 class="section-label">Software Engineer</h3>
+            <h2 class="headline gradient-text" style="font-size: clamp(30px, 5vw, 55px); margin-bottom: 20px;">
+                CadandCart.com</h2>
+            <div class="detail-text centered"
+                style="text-align: left; max-width: 650px; margin: 0 auto; font-size: 18px; color: var(--text-secondary);">
+                Built React-based components for an e-commerce checkout flow and product catalog. Diagnosed and rewrote
+                slow PostgreSQL query execution plans leveraging Redis-backed async queues.
+                <div class="metrics-row purple" style="margin-top: 40px; justify-content: center;">
+                    <div class="metric-card reveal">
+                        <h4>10K+</h4>
+                        <p>Daily sessions completely supported across the catalog.</p>
+                    </div>
+                    <div class="metric-card reveal delay-1">
+                        <h4>35%</h4>
+                        <p>Lift in absolute peak throughput.</p>
+                    </div>
+                    <div class="metric-card reveal delay-2">
+                        <h4>20%</h4>
+                        <p>Drop in p95 checkout latency.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cinematic Experience 3: TCS -->
+    <section class="cinematic-section bg-dark">
+        <div class="cinematic-container split reverse">
+            <div class="text-content reveal">
+                <h3 class="section-label">Software Engineer</h3>
+                <h2 class="hero-text gradient-text" style="font-size: clamp(30px, 5vw, 55px); margin-bottom: 20px;">Tata
+                    Consultancy Services.</h2>
+                <div class="detail-text" style="font-size: 18px; color: var(--text-secondary);">
+                    Engineered distributed Java & Spring Boot payment microservices. Migrated a sprawling monolith into
+                    4 microservices behind AWS ALB, leveraging Apache Kafka, circuit breakers, and controlled retry
+                    logic.
+                </div>
+                <div class="metrics-row">
+                    <div class="metric-card reveal">
+                        <h4>2M+</h4>
+                        <p>Daily API calls processed.</p>
+                    </div>
+                    <div class="metric-card reveal delay-1">
+                        <h4>40%</h4>
+                        <p>Throughput boost.</p>
+                    </div>
+                    <div class="metric-card reveal delay-2">
+                        <h4>15 Min</h4>
+                        <p>Release cycles rapidly compressed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="media-content reveal delay-1">
+                <div class="abstract-visual glow-blue" style="background: transparent;">
+                    <img src="assets/tcs.png" alt="TCS Logo" style="width:200px; height:auto; border-radius:20px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Raw 'Tech Specs' Data Grid -->
+    <section id="tech-specs" class="tech-specs-section">
+        <div class="specs-header reveal">
+            <h2>Tech Specs.</h2>
+        </div>
+
+        <div class="specs-grid">
+            <div class="spec-group reveal">
+                <h4>Languages</h4>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Go</li>
+                    <li>TypeScript / JavaScript</li>
+                    <li>SQL / Bash</li>
+                </ul>
+            </div>
+            <div class="spec-group reveal delay-1">
+                <h4>Backend & Systems</h4>
+                <ul>
+                    <li>Spring Boot</li>
+                    <li>REST APIs & gRPC</li>
+                    <li>Apache Kafka</li>
+                    <li>Amazon SQS/SNS</li>
+                    <li>Microservices</li>
+                </ul>
+            </div>
+            <div class="spec-group reveal delay-2">
+                <h4>Databases & Caching</h4>
+                <ul>
+                    <li>PostgreSQL</li>
+                    <li>MongoDB</li>
+                    <li>DynamoDB</li>
+                    <li>Redis</li>
+                </ul>
+            </div>
+            <div class="spec-group reveal">
+                <h4>Cloud & Infra</h4>
+                <ul>
+                    <li>AWS (EC2, ECS, EKS, S3, RDS, Lambda)</li>
+                    <li>Docker & Kubernetes</li>
+                    <li>Terraform</li>
+                    <li>Jenkins CI/CD</li>
+                </ul>
+            </div>
+            <div class="spec-group reveal delay-1">
+                <h4>Observability</h4>
+                <ul>
+                    <li>Prometheus</li>
+                    <li>Grafana</li>
+                    <li>OpenTelemetry</li>
+                    <li>Distributed Tracing</li>
+                </ul>
+            </div>
+            <div class="spec-group reveal delay-2">
+                <h4>Education</h4>
+                <ul>
+                    <li><strong>M.S. in Computer Science</strong><br>Santa Clara University, CA (2025)</li>
+                    <li style="margin-top:10px;"><strong>B.E. in Computer Science</strong><br>Vishwakarma Institute of
+                        Technology (2019)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="specs-divider reveal"></div>
+
+        <!-- Projects Section via Tech Specs bottom grid -->
+        <div class="specs-header reveal">
+            <h2>Projects & Certifications.</h2>
+        </div>
+        <div class="specs-grid">
+
+            <div class="spec-group reveal">
+                <h4>Projects</h4>
+                <div style="margin-bottom: 24px;">
+                    <a href="https://github.com/Vai147/k8s-crashloop-remediator" target="_blank" class="proj-link">K8s
+                        CrashLoop Auto Remediator <span>&#8599;</span></a>
+                    <p style="color: #86868b; font-size: 14px; margin-top: 6px;"><strong>Go, Kubernetes,
+                            Prometheus</strong><br>Built a Kubernetes controller in Go to detect CrashLoopBackOff events
+                        and apply rate-limited restarts.</p>
+                </div>
+                <div>
+                    <a href="https://github.com/Vai147/AccessOps" target="_blank" class="proj-link">AccessOps AI
+                        Platform <span>&#8599;</span></a>
+                    <p style="color: #86868b; font-size: 14px; margin-top: 6px;"><strong>Python, React,
+                            AWS</strong><br>Anomaly detection service using IsolationForest to monitor system health and
+                        generate remediation playbooks.</p>
+                </div>
+            </div>
+
+            <div class="spec-group reveal delay-1">
+                <h4>Certifications</h4>
+                <div>
+                    <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/191968fb87d34e74afda03832027f83f"
+                        target="_blank" class="proj-link">AWS Certified Solutions Architect – Associate (SAA-C03)
+                        <span>&#8599;</span></a>
+                    <p style="color: #86868b; font-size: 14px; margin-top: 6px;">Amazon Web Services | 2022</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
